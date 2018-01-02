@@ -1,4 +1,4 @@
-#采用岭回归、套索回归、ElasticNet回归模型对数据进行预测，并且根据属性重要性进行排序。
+#利用岭回归、套索回归、ElasticNet、前向逐步回归、LARS算法对属性重要性进行排序。  
 
 import pandas as pd
 import numpy as np
