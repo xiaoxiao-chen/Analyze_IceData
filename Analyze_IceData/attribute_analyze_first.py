@@ -99,7 +99,7 @@ namesList_ElasticNet = [names[nzList_ElasticNet[i] ]for i in range(len(nzList_El
 
 
 #---------------------------------------（4）前向逐步回归---------------------------
-indices = range(xList)
+indices = range(len(xList))
 xListTest  = [xList[i] for i in indices if i%3 == 0 ]
 xListTrain = [xList[i] for i in indices if i%3 != 0 ]
 labelsTest  = [labels[i] for i in indices if i%3 == 0 ]
